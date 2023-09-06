@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&family=Nunito&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  transition: "background-color 300ms ease";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Figtree", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  /* line-height: 1.5; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cl-internal-b3fm6y {
+	display: none;
+}
+
+.cl-userProfile-root {
+	position: absolute !important;
+	left: -30px !important;
+	width: 100vw;
+	padding: 0 !important;
+	margin: 0 !important;
+	.cl-card {
+		.cl-navbar {
+			margin: 20px 0 !important;
+		}
+		width: 110vw;
+		box-shadow: none !important;
+		border-radius: 0;
+	}
+}
+
+html,
+body {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.cl-internal-13lrhkj{
+	padding-left: 16px;;
+}
